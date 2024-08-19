@@ -2,7 +2,7 @@
 import { useWeb3ModalAccount } from '@web3modal/ethers/react';
 
 export default function Home() {
-  const { address, isConnected } = useWeb3ModalAccount();
+  const { isConnected } = useWeb3ModalAccount();
 
   return (
     <div className='mt-10 pl-10'>
@@ -12,7 +12,6 @@ export default function Home() {
       <w3m-account-button/>
       ) : (
         <div>
-          <p>Connected Address: {address}</p>
           <w3m-account-button/>
         </div>
       )}
