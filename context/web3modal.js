@@ -20,8 +20,8 @@ const mainnet = {
 // 3. Create a metadata object
 const metadata = {
   name: 'onewallet',
-  description: 'AppKit Example',
-  url: 'https://web3modal.com', // origin must match your domain & subdomain
+  description: 'Effortless Web3 Access with Seamless Social Logins and Crypto Management',
+  url: 'https://onewallet-blue.vercel.app/', // origin must match your domain & subdomain
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
